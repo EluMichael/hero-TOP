@@ -40,7 +40,8 @@ a {
     background-color: #3882F6; 
 }
 
-.header-b > img {
-    width: 200px;
-    height: 500px;
+.thumbnail-wrapper {
+    width: 100px;
+    height: 100px;
+    background: gray;
 }

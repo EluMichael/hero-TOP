@@ -72,3 +72,14 @@ a {
     gap: 48px;
     padding: 50px 0;
 }
+
+/* content 1 __section 2 */
+.content-1 {
+    background: red;
+}
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}

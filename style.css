@@ -1,9 +1,19 @@
-* {
+body {
+    margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.box {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
 #header-box {
     background: #1F2937;
+    margin: 0;
+    padding: 10px;
 }
 
 #header-logo {
@@ -16,6 +26,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 22px;
 }
 a {
     font-size: 18px;
@@ -25,7 +37,7 @@ a {
 
 
 /* header-b part */
-.header-text > h2 {
+.header-1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -38,10 +50,25 @@ a {
 
 .header-text > button {
     background-color: #3882F6; 
+    width: 120px;
+    border-radius: 7px;
+    padding: 5px 0;
 }
 
 .thumbnail-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     background: gray;
+}
+
+.header-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-b {
+    display: flex;
+    gap: 48px;
+    padding: 50px 0;
 }

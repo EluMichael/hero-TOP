@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;\
+    /* height: 100vh; */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .box {
@@ -52,6 +55,7 @@ a {
     background-color: #3882F6; 
     width: 120px;
     border-radius: 7px;
+    border-color: #3882F6;
     padding: 5px 0;
 }
 
@@ -75,11 +79,102 @@ a {
 
 /* content 1 __section 2 */
 .content-1 {
-    background: red;
+    padding: 48px 0;
 }
 .info-title {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding-bottom: 24px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-text {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-1-img-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius:  8px;
+    border:6px solid #3882F6;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+    /* color: #E5E7EB; */   
+}
+
+/* Section 3 */
+
+.content-2 {
+    background: #E5E7EB;
+    padding: 48px 0;
+    /* flex: auto; */
+}
+
+.box-cont-2 {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.author-quote {
+    text-align: right;
+    font-weight:bold;
+    padding-top: 24px;
+    padding-right: 30px;
+}
+
+/* section 4 */
+
+.content-3 {
+    margin: 70px 0px;
+}
+
+.feedback {
+    height: 100px;
+    background: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedback-text > h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.feedback > button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* footer */
+
+.footer {
+    background: #1F2937;
+    padding: 14px;
+    color: #F9FAF8;
+    text-align: center;
 }

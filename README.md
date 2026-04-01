@@ -1,2 +1,2 @@
 # hero-TOP
-A landing page for user to navigate through website. The specification followed the odin project css landing page instruction.
+A landing page for user to navigate through website. The specification followed the odin project css landing page instruction [desing layout](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) and [color with font styles](https://cdn.statically.io/gh/TheOdinProject/curriculum/02f3babb44a3d30dccdf6ca30283ac64ec02abbd/foundations/html_css/flexbox/project-landing-page/imgs/02.png).
